@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pn-active {
+          color: blue;
+          font-weight: bold;
+          text-decoration: underline;
+        }
+        
+        .pn-hover {
+          color: red;
+          font-style: italic;
+          text-decoration: line-through;
+        }
+        
+        .pn-focus {
+          color: green;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+        
+        .pn-visited {
+          color: orange;
+          font-style: italic;
+          text-transform: capitalize;
+        }
+        
+        .pn-disabled {
+          color: gray;
+          font-weight: bold;
+          text-decoration: none;
+        }
+        </style>
+</head>
+<body>
+    <div class="text-box">
+        <h3 style="color: pink;">Пофарбуйте мене в рожевий колір (color:pink).</h3>
+        <p>Даний елемент має залишитись неоформленим.</p>
+        <p id='greycol' style="color: grey;">Пофарбуйте мене в сірий колір (color:grey).</p>
+        <div>Даний елемент має залишитись неоформленим.</div>
+        <div><p style="color: red;">Пофарбуйте мене в червоний колір (color:red).</p></div>
+        <h3>Даний елемент має залишитись неоформленим.</h3>
+        <p style="color: green;">Пофарбуйте мене в зелений колір (color:green).</p>
+       <p class='yellow' style="color: yellow;">Пофарбуйте мене в жовтий колір (color:yellow).</p>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <ul>
+              <li class="pn-active">Пн</li>
+              <li class="pn-hover">Вт</li>
+              <li class="pn-focus">Ср</li>
+              <li class="pn-visited">Чт</li>
+              <li class="pn-disabled">Пт</li>
+            </ul>
+          </div>
+          <div class="col-md-10">
+            <ul>
+              <li class="pn-active">Урок 1</li>
+              <li class="pn-hover">Урок 2</li>
+              <li class="pn-focus">Урок 3</li>
+              <li class="pn-visited">Урок 4</li>
+              <li class="pn-disabled">Урок 5</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
